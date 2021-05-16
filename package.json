@@ -11,9 +11,10 @@
   "description": "",
   "dependencies": {
     "express": "^4.16.3",
+    "jest": "^26.6.3",
     "jsonschema": "^1.4.0",
     "locus": "^2.0.1",
     "pg": "^8.3.3",
-    "supertest": "^3.3.0"
+    "supertest": "^3.4.2"
   }
 }
