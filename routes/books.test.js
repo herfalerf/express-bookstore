@@ -178,7 +178,6 @@ describe("DELETE /books/:isbn", function () {
   test("will delete a book", async function () {
     const response = await request(app).delete(`/books/${book_isbn}`);
     expect(response.statusCode).toBe(200);
-    console.log(response.body.message);
     expect(response.body.message).toEqual("Book deleted");
   });
 });
